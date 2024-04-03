@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Block de Notas</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header id= "miHeader" data-header-color="blue">
+    <nav class="navbar navbar-dark bg-primary">
+      <span class="navbar-brand mb-0 h1 bloc-de-notas-title">Bloc de Notas</span>
+    </nav>
+    <div class="sidebar">
+      <h5>Temas</h5>
+      <ul>
+        <li><a href="#">Noticia 1</a></li>
+        <li><a href="#">Noticia 2</a></li>
+        <li><a href="#">Noticia 3</a></li>
+        <!-- Agrega más noticias según sea necesario -->
+      </ul>
+    </div>
+    <div class="calendar">
+      <!-- Aquí iría el calendario -->
+    </div>
+  </header>
+  <main id= "miMain" data-body-color="#8A2BE2">
+     <!-- Contenido del body -->
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8">
+          <article>
+            <h2>Prácticas Nathalia Orozco</h2>
+            <p>SQL Server Modelo Relacional.</p>
+            <p class="sangria justificado">Diseño de bases de datos: Comprender cómo diseñar una estructura de base de datos eficiente, incluyendo la identificación de entidades, atributos y relaciones entre tablas.
+
+              Normalización: Aprender sobre las formas normales y cómo aplicarlas para reducir la redundancia y mejorar la integridad de los datos en la base de datos.
+          
+              Consultas SQL: Dominar la escritura de consultas SQL para recuperar, actualizar, insertar y eliminar datos de manera efectiva y eficiente.
+          
+              Índices y rendimiento: Entender cómo crear y utilizar índices para mejorar el rendimiento de las consultas y la eficiencia de la base de datos.
+          
+              Seguridad y mantenimiento: Aprender sobre la importancia de implementar medidas de seguridad adecuadas, como la autenticación y autorización de usuarios, así como realizar copias de seguridad y mantenimiento regular de la base de datos para garantizar la integridad y disponibilidad de los datos.</p>
+          </article>
+        </div>
+        <div class="col-lg-4">
+          <img src="./2.-astron.GIF" alt="Imagen Descriptiva" class="img-pequena">
+        </div>
+      </div>
+      <footer>
+        <p> Contáctanos: <a href="https://www.cesde.edu.co/sedes/medellin/">Sede Medellín de CESDE</a> 
+          </p>
+      </footer>
+    </div>
+  </main>
+  <footer id="miFooter" data-footer-color="green" class="footer footerfinal">
+    <!-- Contenido del footer -->
+    <div class="container">
+      <span>© 2024 Autor - Todos los derechos reservados.</span>
+    </div>
+  </footer>
+  
+  <script src="script.js"></script>
+</body>
+</html>
